@@ -42,7 +42,7 @@ It follow the lessons, specially this [link](https://youtu.be/YamBuzDjrs8). I tr
 ### Reflection
 
 #### 1. Student describes the effect of the P, I, D component of the PID algorithm in their implementation. Is it what you expected? Visual aids are encouraged, i.e. record of a small video of the car in the simulator and describe what each component is set to.
-- The **P** is the proportional to the error, that tries to keep the car in the center of the road. However, if set too high the, the car get out of the road. [Here](hhttps://youtu.be/UYgCRVD6yjQ) you can see P set as -10.
+- The **P** is the proportional to the error, that tries to keep the car in the center of the road. However, if set too high the, the car get out of the road. [Here](hhttps://youtu.be/UYgCRVD6yjQ) you can see P set as -10. 
 
 - The **I** is integral part, that sum the errors. But, if this component is much bigger than zero it will shoot the car out of the road. Therefore, I left it as 0, at the end the day is a **PD** instead of PID. [Here](https://youtu.be/ArEBaDgy0v8) you can see I set as -10.
 
